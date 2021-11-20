@@ -34,4 +34,14 @@ public class Cookie {
     public void setPrice(int price) {
         this.price = price;
     }
+
+
+    @Override
+    public String toString() {
+        return "Cookie{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
